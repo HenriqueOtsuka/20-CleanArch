@@ -1,8 +1,10 @@
 module github.com/devfullcycle/20-CleanArch
 
+
 go 1.23.8
 
 toolchain go1.24.2
+
 
 require (
 	github.com/99designs/gqlgen v0.17.72
