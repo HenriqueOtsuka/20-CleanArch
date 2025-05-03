@@ -33,3 +33,18 @@ migrate -path=sql/migrations -database="mysql://root:root@tcp(localhost:3306)/or
 ## GRPC
 
 - Para o GRPC, use o Evans -> service pb -> service OrderService -> Call ListOrders
+
+## GRAPHQL
+
+- Para o GraphQL, entre em http://localhost:8080
+
+```
+query {
+  listOrders {
+    id
+    Price
+    Tax
+    FinalPrice
+  }
+}
+```
